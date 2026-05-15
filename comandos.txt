@@ -1,1 +1,15 @@
 
+- rodar  
+python -m pip install -r requirements.txt
+
+- rodar
+python -m pip install pytest-cov
+
+- verificar 
+pytest --collect-only
+
+- rodas testes
+python -m pytest -v
+
+- rodar separado
+python -m pytest tests/file.py -v
