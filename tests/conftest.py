@@ -58,3 +58,16 @@ def client(db):
     flask_app.config["TESTING"] = True
     with flask_app.test_client() as client:
         yield client
+
+
+'''
+ordem importa
+
+Tabela
+
+[1] - Lego One Piece, Tenda Palhaço Buggy - Modelo 3D - 573 peças,  480.00, 5
+[2] - Cartucho Road Rash 2, preco=69.94, estoque=0
+[3] - Mangá DanDaDan, vol 1, 36.89, 10
+[4] - Boneco Colecionável, Hisoka Morow - 33cm, Hunter X Hunter, 977.00, 3
+
+'''
