@@ -45,7 +45,7 @@ def init_db():
             quantidade       INTEGER NOT NULL DEFAULT 1,
             valor_total      REAL    NOT NULL,
             cupom            TEXT,
-            codigo_transacao TEXT,
+            nsu              TEXT,
             FOREIGN KEY (produto_id) REFERENCES produtos(id)
         )
     """)
